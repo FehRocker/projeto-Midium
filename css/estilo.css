@@ -1,0 +1,52 @@
+/*************************
+Estrutura / Layout/*/
+
+
+
+
+
+/******************************
+tipografia*/
+
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cabecalho {
+    background: lightblue;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.container {
+    width: 1145px;
+    margin: 0 auto;
+    padding: 1.4rem 0;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 475px;
+    float: right;
+}
+
+
+ul#menu li a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: black;
+    float: left;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background: black;
+    border-radius: 1em;
+}
