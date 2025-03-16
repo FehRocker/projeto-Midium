@@ -1,16 +1,20 @@
 /*************************
 Estrutura / Layout/*/
 
-
-
-
-
-/******************************
-tipografia*/
-
 body {
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 1145px;
+    margin: 0 auto;
+    padding: 1.4rem 0;
+}
+
+.fundo-topo {
+    background: url(../img/fundo-topo.png) no-repeat right bottom;
+    background-size: 22rem;
 }
 
 #cabecalho {
@@ -20,12 +24,6 @@ body {
     top: 0px;
     right: 0px;
     left: 0px;
-}
-
-.container {
-    width: 1145px;
-    margin: 0 auto;
-    padding: 1.4rem 0;
 }
 
 ul#menu {
@@ -49,4 +47,32 @@ ul#menu li a:hover {
     color: white;
     background: black;
     border-radius: 1em;
+}
+
+#destaque {
+    padding-top: 70px;
+    background: lightblue;
+    border-bottom: 1px solid black;
+}
+
+#conteudo-topo {
+    width: 55%;
+}
+
+#destaque button {
+    display: block;
+    border: 1px solid black;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
+
+
+/******************************
+tipografia*/
+#destaque h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    margin: 0;
+    letter-spacing: -0.1rem;
 }
